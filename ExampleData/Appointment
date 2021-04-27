@@ -1,0 +1,47 @@
+  {
+    "resourceType": "Appointment",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns='http://www.w3.org/1999/xhtml'>COVID-19 Vaccination 2021-04-27<a name='mm'/></div>"
+    },
+    "id": "cf-1619512765540",
+    "status": "booked",
+    "serviceType": [
+      {
+        "coding": [
+          {
+            "code": "57",
+            "system": "http://terminology.hl7.org/CodeSystem/service-type",
+            "display": "Immunization"
+          }
+        ]
+      }
+    ],
+    "reasonReference": [
+      {
+        "reference": "ImmunizationRecommendation/cf-1619494325714"
+      }
+    ],
+    "start": "2021-04-27T16:59:27+07:00",
+    "created": "2021-04-12T17:00:00.000Z",
+    "participant": [
+      {
+        "actor": {
+          "reference": "Patient/2067321"
+        },
+        "status": "accepted"
+      },
+      {
+        "actor": {
+          "reference": "Location/cf-1619498234939"
+        },
+        "status": "accepted"
+      },
+      {
+        "actor": {
+          "reference": "HealthcareService/cf-1619498799481"
+        },
+        "status": "accepted"
+      }
+    ]
+  }
