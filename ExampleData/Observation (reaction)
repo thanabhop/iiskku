@@ -1,0 +1,54 @@
+ {
+    "resourceType": "Observation",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Immunization Reaction<a name='mm'/></div>"
+    },
+    "id": "cf-1619509474452",
+    "subject": {
+      "reference": "Patient/2067321"
+    },
+    "partOf": [
+      {
+        "reference": "Immunization/cf-1619501846786"
+      }
+    ],
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "exam",
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "display": "Exam"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "code": "31044-1",
+          "system": "http://loinc.org",
+          "display": "Immunization reaction"
+        }
+      ]
+    },
+    "encounter": {
+      "reference": "Encounter/cf-1619504388593"
+    },
+    "effectiveDateTime": "2021-04-27T08:17:59.430Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "code": "25064002",
+          "system": "http://snomed.info/sct",
+          "display": "Headache"
+        }
+      ]
+    },
+    "performer": [
+      {
+        "reference": "Practitioner/cf-1619499316884"
+      }
+    ]
+  }
