@@ -1,0 +1,53 @@
+ {
+    "resourceType": "DocumentReference",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns='http://www.w3.org/1999/xhtml'>National COVID-19 Certificate<a name='mm'/></div>"
+    },
+    "id": "cf-1619518641251",
+    "masterIdentifier": {
+      "system": "https://co19cert.moph.go.th/cert?id={xxxxxxx-xxxxxxx-xxxxxxx-xxxxxxx}",
+      "value": "1111111"
+    },
+    "status": "current",
+    "docStatus": "final",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "55107-7",
+          "display": "Addendum Document"
+        }
+      ]
+    },
+    "category": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41291-6",
+          "display": "History of Immunization"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/2067321"
+    },
+    "authenticator": {
+      "reference": "Organization/"
+    },
+    "custodian": {
+      "reference": "Organization/"
+    },
+    "content": [
+      {
+        "attachment": {
+          "url": "https://co19cert.moph.go.th/cert?id={xxxxxxx-xxxxxxx-xxxxxxx-xxxxxxx}"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:pcc:ic:2008",
+          "display": "Immunization Content (IC)"
+        }
+      }
+    ]
+  }
