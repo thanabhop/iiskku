@@ -1,0 +1,43 @@
+{
+  "resourceType": "Observation",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Negative for SARS-CoV-2 (COVID-19) IgG Ab<a name='mm'/></div>"
+  },
+  "id": "cf-1619492656812",
+  "status": "final",
+  "subject": {
+    "reference": "Patient/2067321"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "laboratory",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display": "Laboratory"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "94563-4",
+        "system": "http://loinc.org",
+        "display": "SARS-CoV-2 (COVID-19) IgG Ab [Presence] in Serum or Plasma by Immunoassay"
+      }
+    ]
+  },
+  "effectiveDateTime": "2021-04-27T03:00:00.000Z",
+  "issued": "2021-04-27T10:28:42+07:00",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA6577-6",
+        "system": "http://loinc.org",
+        "display": "Negative"
+      }
+    ]
+  }
+}
