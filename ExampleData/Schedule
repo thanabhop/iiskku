@@ -1,0 +1,29 @@
+ {
+    "resourceType": "Schedule",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Immunization Schedule<a name='mm'/></div>"
+    },
+    "id": "cf-1619517944620",
+    "active": true,
+    "serviceType": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/service-type",
+            "code": "57",
+            "display": "Immunization"
+          }
+        ]
+      }
+    ],
+    "actor": [
+      {
+        "reference": "HealthcareService/cf-1619498799481"
+      }
+    ],
+    "planningHorizon": {
+      "start": "2021-04-27T09:00:00+07:00",
+      "end": "2021-04-27T15:00:00+07:00"
+    }
+  }
