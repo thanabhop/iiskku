@@ -1,0 +1,92 @@
+ {
+    "resourceType": "Composition",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Vaccination Certificate<a name='mm'/></div>"
+    },
+    "id": "cf-1619520509955",
+    "status": "final",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "69764-9",
+          "display": "Document type"
+        }
+      ]
+    },
+    "category": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41291-6",
+          "display": "History of Immunization"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/2067321"
+    },
+    "date": "2021-04-27T13:30:00+07:00",
+    "author": [
+      {
+        "reference": "Organization/cf-1619490398424"
+      }
+    ],
+    "title": "Vaccination Certificate",
+    "attester": [
+      {
+        "mode": [
+          "legal"
+        ],
+        "party": {
+          "reference": "Organization/cf-1619490398424"
+        }
+      }
+    ],
+    "custodian": {
+      "reference": "Organization/cf-1619490398424"
+    },
+    "section": [
+      {
+        "title": "Vaccine recipient",
+        "entry": [
+          {
+            "reference": "Patient/2067321"
+          }
+        ]
+      },
+      {
+        "title": "Vaccination detail",
+        "entry": [
+          {
+            "reference": "Immunization/cf-1619501846786"
+          }
+        ]
+      },
+      {
+        "title": "Vaccine provider",
+        "entry": [
+          {
+            "reference": "Immunization/cf-1619501846786"
+          }
+        ]
+      },
+      {
+        "title": "National COVID-19 vaccination certificate registry",
+        "entry": [
+          {
+            "reference": "DocumentReference/cf-1619518641251"
+          }
+        ]
+      },
+      {
+        "title": "Digital Signature",
+        "entry": [
+          {
+            "reference": "Provenance/cf-1619519397750"
+          }
+        ]
+      }
+    ]
+  }
