@@ -1,0 +1,140 @@
+{
+    "resourceType": "Immunization",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns='http://www.w3.org/1999/xhtml'>1/2 Dose CORONAVAC<a name='mm'/></div>"
+    },
+    "id": "cf-1619501846786",
+     "status": "completed",
+     "vaccineCode": {
+        "coding": [
+           {
+              "system": "http://this.or.th/tmt",
+              "code": "1178014",
+              "display": "sars-cov-2 vaccine (vero cell)"
+           },
+           {
+              "system": "http://snomed.info/sct",
+              "code": "1119305005",
+              "display": "COVID-19 antigen vaccine"
+           },
+           {
+              "system": "https://id.who.int/icd/entity",
+              "code": "1104808441",
+              "display": "COVID-19 vaccine, inactivated virus"
+           },
+           {
+              "system": "http://this.or.th/tmt",
+              "code": "1178033",
+              "display": "CORONAVAC (SINOVAC LIFE SCIENCES, CHINA) (sars-cov-2 vaccine (vero cell), inactivated 600 SU/0.5 mL) suspension for injection, 0.5 mL vial"
+           }
+        ],
+        "text": "CORONAVAC (SINOVAC LIFE SCIENCES, CHINA)"
+     },
+     "patient": {
+        "reference": "Patient/2067321"
+     },
+     "encounter": {
+        "reference": "Encounter/cf-1619504388593"
+     },
+     "occurrenceDateTime": "2021-04-27T13:00:00+07:00",
+     "primarySource": true,
+     "location": {
+        "reference": "Location/cf-1619498234939"
+     },
+     "manufacturer": {
+        "reference": "Organization/cf-1619490398424"
+     },
+     "lotNumber": "202103001",
+     "expirationDate": "2022-05",
+     "site": {
+        "coding": [
+           {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+              "code": "LA",
+              "display": "Left arm"
+           }
+        ]
+     },
+     "route": {
+        "coding": [
+           {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+              "code": "IM",
+              "display": "Injection, intramuscular"
+           }
+        ]
+     },
+     "doseQuantity": {
+        "value": "0.5",
+        "system": "http://unitsofmeasure.org",
+        "code": "mL"
+     },
+     "performer": [
+        {
+           "function": {
+              "coding": [
+                 {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+                    "code": "OP",
+                    "display": "Ordering Provider"
+                 }
+              ]
+           },
+           "actor": {
+              "reference": "Practitioner/cf-1619499316884"
+           }
+        },
+        {
+           "function": {
+              "coding": [
+                 {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+                    "code": "AP",
+                    "display": "Administering Provider"
+                 }
+              ]
+           },
+           "actor": {
+              "reference": "Practitioner/cf-1619499316884"
+           }
+        }
+     ],
+     "reasonCode": [
+             {
+              "coding": [
+                 {
+                    "system": "http://snomed.info/sct",
+                    "code": "429060002",
+                    "display": "Procedure to meet occupational requirement"
+                 }
+              ]
+           }
+        ],
+     "reaction": [
+        {
+           "date": "2021-04-27T13:20:00+07:00",
+           "detail": {
+              "reference": "Observation/cf-1619509474452"
+           }
+        }
+     ],
+     "protocolApplied": [
+        {
+           "series": "COVID-19 Vaccination",
+           "targetDisease": [
+              {
+                 "coding": [
+                    {
+                       "system": "http://snomed.info/sct",
+                       "code": "840539006",
+                       "display": "COVID-19"
+                    }
+                 ],
+           "doseNumberPositiveInt": "1",
+           "seriesDosesPositiveInt": "2"
+              }
+           ]
+        }
+     ]
+  }
