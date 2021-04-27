@@ -1,0 +1,40 @@
+{
+  "resourceType": "HealthcareService",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Immunization<a name='mm'/></div>"
+  },
+  "id": "cf-1619498799481",
+  "active": true,
+  "providedBy": {
+    "reference": "Organization/cf-1619490398424"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/service-type",
+          "code": "57",
+          "display": "Immunization"
+        }
+      ]
+    }
+  ],
+  "specialty": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "394821009",
+          "display": "Occupational medicine"
+        }
+      ]
+    }
+  ],
+  "location": [
+    {
+      "reference": "Location/cf-1619498234939"
+    }
+  ],
+  "name": "Immunization"
+}
