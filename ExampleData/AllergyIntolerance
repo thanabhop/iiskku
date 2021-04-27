@@ -1,0 +1,45 @@
+{
+  "resourceType": "AllergyIntolerance",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Allergy to cashew nuts<a name='mm'/></div>"
+  },
+  "id": "cf-1619491855202",
+  "patient": {
+    "reference": "Patient/2067321"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "227493005",
+        "system": "http://snomed.info/sct",
+        "display": "Cashew nut"
+      }
+    ]
+  },
+  "onsetDateTime": "2021-03-30T17:00:00.000Z",
+  "reaction": [
+    {
+      "substance": {
+        "coding": [
+          {
+            "code": "227493005",
+            "system": "http://snomed.info/sct",
+            "display": "Cashew nut"
+          }
+        ]
+      },
+      "manifestation": [
+        {
+          "coding": [
+            {
+              "code": "64305001",
+              "system": "http://snomed.info/sct",
+              "display": "Urticaria"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
